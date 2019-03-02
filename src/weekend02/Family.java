@@ -1,9 +1,10 @@
 package weekend02;
+
 public class Family {
-    String familyName;
-    Person husband;
-    Person wife;
-    Person child;
+    private String familyName;
+    private Person husband;
+    private Person wife;
+    private Person child;
 
     public Family() {
     }
@@ -37,13 +38,16 @@ public class Family {
                 "\n" + familyName + " " +
                 " \nhusband = " + husband +
                 ", \nwife = " + wife +
-                ", \nchild = " + child +".";
+                ", \nchild = " + child + "." +
+                "\nSum of family member's age: " + sumOfFamilyAge() +
+                "\nAverage age: " + averageAge();
     }
 
-    public int sumOfFamilyAge(){
-        return husband.getAge()+wife.getAge()+child.getAge();
+    private int sumOfFamilyAge() {
+        return husband.getAge() + wife.getAge() + child.getAge();
     }
-    public float averageAge(){
-        return (float)sumOfFamilyAge()/3;
+
+    private float averageAge() {
+        return (float) sumOfFamilyAge() / 3;
     }
 }
