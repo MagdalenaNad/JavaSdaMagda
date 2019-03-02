@@ -12,7 +12,7 @@ public class Statement1 {
     public static void checkNumber(int a){
 
         if (a>10000) {
-            System.out.println("Większa od 10000.");
+            System.out.println("Twoja liczba jest większa od 10000.");
         } else if (a>1000){
             System.out.println("Liczba z przedziału 1001-10000.");
         } else if (a>100) {
