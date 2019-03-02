@@ -1,3 +1,4 @@
+package weekend01;
 public class Task5 {
     public static void main(String[] args) {
         char l=65, h=1488, t=3840;

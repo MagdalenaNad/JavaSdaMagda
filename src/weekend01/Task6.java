@@ -1,3 +1,4 @@
+package weekend01;
 public class Task6 {
     public static void main(String[] args) {
        // 74, 65, 86, 65, 32, 8658, 32, 9786

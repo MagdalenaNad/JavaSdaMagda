@@ -1,3 +1,4 @@
+package weekend01;
 public class Temperature {
    // Utwórz nową klasę Temperature, która będzie posiadała pola: double temperature, String date, String hour.
     // Klasa określa temperaturę w skali Celsjusza w konkretnym dniu i o konkretnej godzinie.

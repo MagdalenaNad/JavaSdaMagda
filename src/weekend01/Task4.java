@@ -1,3 +1,5 @@
+
+package weekend01;
 public class Task4 {
     public static void main(String[] args) {
         int t=22;

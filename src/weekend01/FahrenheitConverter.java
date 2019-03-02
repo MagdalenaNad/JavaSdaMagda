@@ -1,3 +1,4 @@
+package weekend01;
 import java.util.Scanner;
 
 public class FahrenheitConverter {
