@@ -34,13 +34,20 @@ public class Family {
 
     @Override
     public String toString() {
-        return "Family:" +
+        String s=new StringBuilder(familyName).append("\n")
+                .append("husband: ").append(husband).append("\n")
+                .append("wife: ").append(wife).append("\n")
+                .append("child: ").append(child).append("\n")
+                .append("Sum of family member's age: ").append(sumOfFamilyAge()).append("\n")
+                .append("Average age: ").append(averageAge()).toString();
+        return s;
+                /*"Family:" +
                 "\n" + familyName + " " +
                 " \nhusband = " + husband +
                 ", \nwife = " + wife +
                 ", \nchild = " + child + "." +
                 "\nSum of family member's age: " + sumOfFamilyAge() +
-                "\nAverage age: " + averageAge();
+                "\nAverage age: " + averageAge();*/
     }
 
     private int sumOfFamilyAge() {

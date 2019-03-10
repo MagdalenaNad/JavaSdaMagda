@@ -27,9 +27,10 @@ public class Person {
 
     @Override
     public String toString() {
-        return
-                firstName + " " +
+        String s= new StringBuilder(firstName).append(" ").append(lastName).append(", ").append(age).toString();
+        return s;
+                /*firstName + " " +
                         lastName + ", " +
-                        age ;
+                        age ;*/
     }
 }

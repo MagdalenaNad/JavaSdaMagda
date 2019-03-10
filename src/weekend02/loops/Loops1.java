@@ -16,7 +16,7 @@ public class Loops1 {
 
     public static void main(String[] args) {
         evenNumber(12);
-        int power=powerOfNumber(4,0);
+        int power=powerOfNumber(4,6);
         System.out.println(power);
 
         char c;

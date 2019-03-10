@@ -1,4 +1,4 @@
-package weekend01;
+package weekend01.statements;
 import java.util.Scanner;
 
 public class Statement4 {

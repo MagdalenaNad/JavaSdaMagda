@@ -14,13 +14,11 @@ public class FahrenheitConverterTest {
         if (skala == 1) {
             System.out.print("Podaj temperatuję w skali Fahrenheita: ");
             double fahr = scanner.nextDouble();
-            fahrenheitConverter.convertToCelsius(fahr);
-            System.out.print("W skali Celsjusza: ");
+            System.out.print("W skali Celsjusza: " + fahrenheitConverter.convertToCelsius(fahr));
         } else if (skala == 2) {
             System.out.print("Podaj temperatuję w skali Celsjusza: ");
             double cels = scanner.nextDouble();
-            fahrenheitConverter.convertToFahrenheit(cels);
-            System.out.print("W skali Fahrenheita: ");
+            System.out.print("W skali Fahrenheita: " + fahrenheitConverter.convertToFahrenheit(cels));
         } else {
             System.out.println("Nie podałeś liczby poprawnie.");
         }
